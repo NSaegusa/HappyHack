@@ -11,77 +11,143 @@
 </head>
 
 <body>
+   <header>
     <div class="box">
+
+        <nav>
+            <li><a href="#introduction-content">Introduction</a></li>
+            <li><a href="#courses-content">Courses</a></li>
+            <li><a href="#images-content">Images</a></li>
+            <li><a href="#access-content">Access</a></li>
+        </nav>
         <div class="header">
-           <div class="wrapper">
-               <h1>Introduction</h1>
-               <h1>Courses</h1>
-               <h1>Images</h1>
-               <h1>Access</h1>
-           </div>
-            <img src="images/logo.png" alt="" width="905px" height="205px" class="logo-image">
-            <h1>We are Web Designers.</h1>
+            <div class="images-text">
+                <img src="images/logo.png" alt="" width="905px" height="205px" class="logo-image">
+                <h1>We are Web Designers.</h1>
+            </div>
         </div>
     </div>
+    </header>
 
     <script>
         $(".box").bgswitcher({
             images: ["images/hero.jpg", "images/background2.jpg", "images/background3.jpg", "images/background4.jpg", "images/background5.jpg"],
         });
-
     </script>
 
 
 
 
     <div id="main">
-        <div class="content">
-            <h1 class="top-title" id="introduction-title">Introduction</h1>
-            <div class="container">
-                <img src="images/introduction_001.jpg" alt="" width="500px" class="image-item">
-                <div class="text-item">
-                    <p>
-                        Happy Hackはいまをときめく若者がITを活用したものづくりに取り組める環境を提供しています。
-                        <br>特に、Webデザイン領域のプログラミングを学習している生徒が一番積極的に活動しています。
-                        <br>誰でも最初は初心者。それを一番知っている我々がプログラミングへの第一歩を踏み出すお手伝いをさせていただきます。
-                    </p>
-                    <h2>会員登録</h2>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="text-item">
-                    <p>
-                        Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログラミングを学びます。コースは全部で7つ準備をしています。
-                        <br>WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽しみいただけます。
-                        <br>自分の想いをカタチにして発信することをぜひこの場で体験してみてください。世界が変わって見えるかもしれません。
-                    </p>
-                    <h2>会員登録</h2>
-                </div>
-                <img src="images/introduction_002.jpg" alt="" width="500px" class="image-item">
-            </div>
-        </div>
-
-        <div class="section-2">
-            <div class="content">
-                <h1 class="top-title" id="courses-title">Courses</h1>
-                <div class=""></div>
+        <div class="wrapper">
+            <div class="content" id="introduction-content">
+                <h1 class="top-title" id="introduction-title">Introduction</h1>
                 <div class="container">
-                    <img src="images/html.png" alt="" width="100px" height="140px">
-                    <img src="images/css.png" alt="" width="104px" height="154px">
-                    <img src="images/unity.png" alt="" width="101px" height="101px">
-                    <img src="images/ruby.png" alt="" width="101px" height="101px">
-                    <img src="images/js.png" alt="" width="101px" height="141px">
-                    <img src="images/swift.png" alt="" width="100px" height="90px">
-                    <img src="images/go.png" alt="" width="110px" height="110px">
+                    <img src="images/introduction_001.jpg" alt="" width="500px" class="image-item">
+                    <div class="text-item">
+                        <p>
+                            Happy Hackはいまをときめく若者がITを活用したものづくりに取り組める環境を提供しています。
+                            <br>特に、Webデザイン領域のプログラミングを学習している生徒が一番積極的に活動しています。
+                            <br>誰でも最初は初心者。それを一番知っている我々がプログラミングへの第一歩を踏み出すお手伝いをさせていただきます。
+                        </p>
+                        <h2>会員登録</h2>
+                    </div>
                 </div>
+
+                <div class="container">
+                    <div class="text-item">
+                        <p>
+                            Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログラミングを学びます。コースは全部で7つ準備をしています。
+                            <br>WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽しみいただけます。
+                            <br>自分の想いをカタチにして発信することをぜひこの場で体験してみてください。世界が変わって見えるかもしれません。
+                        </p>
+                        <h2 id="yellow-button">会員登録</h2>
+                    </div>
+                    <img src="images/introduction_002.jpg" alt="" width="500px" class="image-item">
+                </div>
+            </div>
+        </div>
+
+        <div class="blue-background">
+            <div class="wrapper">
+
+                <div class="course-container" id="courses-content">
+                    <h1 class="top-title" id="courses-title">Courses</h1>
+                    <div class=""></div>
+                    <div class="course-container">
+                        <div class="course-list">
+                            <img src="images/html.png" alt="" width="100px" height="140px">
+                            <p class="corse-name">HTMLコース</p>
+                            <h3 class="course-button">このコースを受ける</h3>
+                        </div>
+
+                        <div class="course-list">
+                            <img src="images/css.png" alt="" width="104px" height="154px">
+                            <p class="corse-name">CSSコース</p>
+                            <h3 class="course-button">このコースを受ける</h3>
+                        </div>
+
+                        <div class="course-list">
+                            <img src="images/unity.png" alt="" width="101px" height="101px">
+                            <p class="corse-name">Unityコース</p>
+                            <h3 class="course-button">このコースを受ける</h3>
+                        </div>
+
+                        <div class="course-list">
+                            <img src="images/ruby.png" alt="" width="101px" height="101px">
+                            <p class="corse-name">Rubyコース</p>
+                            <h3 class="course-button">このコースを受ける</h3>
+                        </div>
+
+                        <div class="course-list">
+                            <img src="images/js.png" alt="" width="101px" height="141px">
+                            <p class="corse-name">JavaScriptコース</p>
+                            <h3 class="course-button">このコースを受ける</h3>
+                        </div>
+
+                        <div class="course-list">
+                            <img src="images/swift.png" alt="" width="100px" height="90px">
+                            <p class="corse-name">Swiftコース</p>
+                            <h3 class="course-button">このコースを受ける</h3>
+                        </div>
+
+                        <div class="course-list">
+                            <img src="images/go.png" alt="" width="110px" height="110px">
+                            <p class="corse-name">Goコース</p>
+                            <h3 class="course-button">このコースを受ける</h3>
+                        </div>
+
+
+                    </div>
+                </div>
+
             </div>
 
         </div>
 
-
-
+    <div class="content" id="images-content">
+        <h1 class="top-title" id="images-title">Images</h1>
+        <div class="container">
+            <img src="images/hero.jpg" alt="" width="290px" height="195px">
+            <img src="images/background2.jpg" alt="" width="290px" height="195px">
+            <img src="images/background3.jpg" alt="" width="290px" height="195px">
+            <img src="images/background4.jpg" alt="" width="290px" height="195px">
+            <img src="images/background5.jpg" alt="" width="290px" height="195px">
+        </div>
+        </div>
+        
+        <div class="content" id="access-content">
+        <h1 class="top-title" id="access-title">Access</h1>
+        <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3131287759825!2d135.49025991523217!3d34.697281280435405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1601143070440!5m2!1sja!2sjp" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            
+        </iframe>
+        </div>
+        </div>
+    
     </div>
-</body>
-
-</html>
+    
+    <footer>
+        <h3>© 2019 Happy Hack Inc.</h3>
+    </footer>
+</body></html>

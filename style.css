@@ -1,13 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+@font-face {
+    font-family: "Futura-Med";
+    src: url(fonts/Futura-Med.ttf);
+}
+
+body {
     width: 100%;
 }
 
-.box{
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.box {
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -15,57 +25,87 @@ body{
     position: relative;
 }
 
-.header{
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
+.box nav {
+    overflow: hidden;
+    margin: 0px 50px 0px;
+    float: right;
+
 }
 
-.logo-image{
+.box nav li {
+    list-style-type: none;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.box nav a{
+    font-size: 30px;
+    font-family:"Futura-Med" ;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.box nav a:hover{
+    color: #3f5ddb;
+}
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+.logo-image {
     margin: 0 auto;
     padding: 20px;
 
 }
 
-.header h1{
+.header h1 {
     font-style: italic;
     text-align: center;
     width: 950px;
     color: #fff;
     padding: 20px;
+    font-family: "Futura-Med";
+    font-size: 50px;
 }
 
 
-#introduction-title{
+#introduction-title {
     color: #3f5ddb;
-    font-size: 53px;
+    font-size: 55px;
     margin: 54px;
     text-align: center;
-    font-family: "fonts/Futura-Med.ttf";
+    font-family: "Futura-Med";
 }
 
-.container{
+.container {
     display: flex;
     width: 1080px;
     margin: 0 auto;
     margin-bottom: 52px;
 }
 
-.image-item{
+.image-item {
     width: 500px;
     padding: 20px;
     margin: 0 auto;
-    
+
 }
 
-.text-item{
-    width:500px;
-    margin: 20px;    
+.text-item {
+    width: 500px;
+    margin: 20px;
 }
 
-.text-item p{
+.text-item p {
     width: 420px;
     margin: 20px 40px 40px 40px;
     line-height: 32px;
@@ -73,9 +113,25 @@ body{
     color: #333;
 }
 
-.text-item h2{
+#yellow-button{
     text-align: center;
-    padding:8px;
+    padding: 8px;
+    color: #fff;
+    background-color: #ffbf00;
+    border: 1px solid #ffbf00;
+    border-radius: 12px;
+    text-decoration: none;
+    width: 152px;
+    height: 22px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-item h2 {
+    text-align: center;
+    padding: 8px;
     color: #fff;
     background-color: #3f5ddb;
     border: 1px solid #3f5ddb;
@@ -89,11 +145,64 @@ body{
     margin-bottom: 20px;
 }
 
-#courses-title{
-    margin: 54px;
-    color: #3f5ddb;
-    font-size: 53px;
-    text-align: center;
-    font-family: "fonts/Futura-Lig";
+.blue-background{
+  background: #BAD5f5;  
+    padding-bottom: 50px;
 }
 
+#courses-title {
+    padding: 5px;
+    margin: 50px;
+    color: #3f5ddb;
+    font-size: 55px;
+    text-align: center;
+    font-family: "Futura-Med";
+}
+
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.course-list{
+    display: block;
+    background: #fff;
+    width: 230px;
+    height: 330px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px 10px;
+}
+
+#images-title {
+    color: #3f5ddb;
+    font-size: 55px;
+    margin: 54px;
+    text-align: center;
+    font-family: "Futura-Med";
+}
+
+#access-title {
+    color: #3f5ddb;
+    font-size: 55px;
+    margin: 54px;
+    text-align: center;
+    font-family: "Futura-Med";
+}
+
+
+.map{
+    text-align: center;
+}
+
+footer h3{
+     color: #3f5ddb;
+    font-size: 20px;
+    padding: 20px 0px;
+    text-align: center;
+    font-family: "Futura-Med";
+}
