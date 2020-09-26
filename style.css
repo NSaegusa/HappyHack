@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+.logo-image{
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.header h1{
+    font-style: italic;
+    text-align: center;
+    width: 950px;
+    color: #fff;
+    padding: 20px;
+}
+
+
+#introduction-title{
+    color: #3f5ddb;
+    font-size: 53px;
+    margin: 54px;
+    text-align: center;
+    font-family: "fonts/Futura-Med.ttf";
+}
+
+.container{
+    display: flex;
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 52px;
+}
+
+.image-item{
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+
+.text-item{
+    width:500px;
+    margin: 20px;    
+}
+
+.text-item p{
+    width: 420px;
+    margin: 20px 40px 40px 40px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #333;
+}
+
+.text-item h2{
+    text-align: center;
+    padding:8px;
+    color: #fff;
+    background-color: #3f5ddb;
+    border: 1px solid #3f5ddb;
+    border-radius: 12px;
+    text-decoration: none;
+    width: 152px;
+    height: 22px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#courses-title{
+    margin: 54px;
+    color: #3f5ddb;
+    font-size: 53px;
+    text-align: center;
+    font-family: "fonts/Futura-Lig";
+}
+

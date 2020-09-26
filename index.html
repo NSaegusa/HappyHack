@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Hack</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery.bgswitcher.js"></script>
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="header">
+           <div class="wrapper">
+               <h1>Introduction</h1>
+               <h1>Courses</h1>
+               <h1>Images</h1>
+               <h1>Access</h1>
+           </div>
+            <img src="images/logo.png" alt="" width="905px" height="205px" class="logo-image">
+            <h1>We are Web Designers.</h1>
+        </div>
+    </div>
+
+    <script>
+        $(".box").bgswitcher({
+            images: ["images/hero.jpg", "images/background2.jpg", "images/background3.jpg", "images/background4.jpg", "images/background5.jpg"],
+        });
+
+    </script>
+
+
+
+
+    <div id="main">
+        <div class="content">
+            <h1 class="top-title" id="introduction-title">Introduction</h1>
+            <div class="container">
+                <img src="images/introduction_001.jpg" alt="" width="500px" class="image-item">
+                <div class="text-item">
+                    <p>
+                        Happy Hackはいまをときめく若者がITを活用したものづくりに取り組める環境を提供しています。
+                        <br>特に、Webデザイン領域のプログラミングを学習している生徒が一番積極的に活動しています。
+                        <br>誰でも最初は初心者。それを一番知っている我々がプログラミングへの第一歩を踏み出すお手伝いをさせていただきます。
+                    </p>
+                    <h2>会員登録</h2>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="text-item">
+                    <p>
+                        Happy Hackでは「楽しさ」と「真剣さ」をモットーにプログラミングを学びます。コースは全部で7つ準備をしています。
+                        <br>WebデザインからWebサービス、3DゲームやiPhoneアプリまで幅広くお楽しみいただけます。
+                        <br>自分の想いをカタチにして発信することをぜひこの場で体験してみてください。世界が変わって見えるかもしれません。
+                    </p>
+                    <h2>会員登録</h2>
+                </div>
+                <img src="images/introduction_002.jpg" alt="" width="500px" class="image-item">
+            </div>
+        </div>
+
+        <div class="section-2">
+            <div class="content">
+                <h1 class="top-title" id="courses-title">Courses</h1>
+                <div class=""></div>
+                <div class="container">
+                    <img src="images/html.png" alt="" width="100px" height="140px">
+                    <img src="images/css.png" alt="" width="104px" height="154px">
+                    <img src="images/unity.png" alt="" width="101px" height="101px">
+                    <img src="images/ruby.png" alt="" width="101px" height="101px">
+                    <img src="images/js.png" alt="" width="101px" height="141px">
+                    <img src="images/swift.png" alt="" width="100px" height="90px">
+                    <img src="images/go.png" alt="" width="110px" height="110px">
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
