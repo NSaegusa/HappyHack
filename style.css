@@ -27,7 +27,7 @@ body {
 
 .box nav {
     overflow: hidden;
-    margin: 0px 50px 0px;
+    margin: 20px 50px;
     float: right;
 
 }
@@ -35,14 +35,13 @@ body {
 .box nav li {
     list-style-type: none;
     float: left;
-    margin-top: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 15px;
 
 }
 
 .box nav a{
-    font-size: 30px;
+    font-size: 27px;
+    font-weight: 300;
     font-family:"Futura-Med" ;
     color: #fff;
     display: block;
@@ -74,14 +73,15 @@ body {
     color: #fff;
     padding: 20px;
     font-family: "Futura-Med";
-    font-size: 50px;
+    font-size: 53px;
+    font-weight: 100;
 }
 
 
 #introduction-title {
     color: #3f5ddb;
     font-size: 55px;
-    margin: 54px;
+    padding: 40px;
     text-align: center;
     font-family: "Futura-Med";
 }
@@ -102,7 +102,7 @@ body {
 
 .text-item {
     width: 500px;
-    margin: 20px;
+    margin:  0px 20px;
 }
 
 .text-item p {
@@ -323,7 +323,9 @@ body {
 footer h3{
      color: #3f5ddb;
     font-size: 20px;
-    padding: 20px 0px;
+    padding-bottom: 20px;
+    padding-top:20px;
+    margin-top: 45px;
     text-align: center;
     font-family: "Futura-Med";
 }
