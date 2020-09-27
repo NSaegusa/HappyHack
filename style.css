@@ -145,9 +145,16 @@ body {
     margin-bottom: 20px;
 }
 
-.blue-background{
-  background: #BAD5f5;  
+#hoge{
+  background: #D5E5F9;  
     padding-bottom: 50px;
+    
+}
+
+#particles-js{
+    position:absolute;
+    width: 100vw;
+    height:100%;
 }
 
 #courses-title {
@@ -164,6 +171,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
+    z-index:1;
 }
 
 .course-list{
