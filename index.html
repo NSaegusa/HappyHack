@@ -10,8 +10,16 @@
 
     <script src="particles.min.js">
     </script>
-    <script src="setting.js"></script>
 
+
+    <script type="text/javascript" src="slick.min.js">
+    </script>
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="slick.css">
+
+    <script src="setting.js"></script>
+    
+    <link rel="shortcut icon" href="images/favicon.ico">
 
 </head>
 
@@ -38,6 +46,7 @@
         $(".box").bgswitcher({
             images: ["images/hero.jpg", "images/background2.jpg", "images/background3.jpg", "images/background4.jpg", "images/background5.jpg"],
         });
+
     </script>
 
 
@@ -74,7 +83,7 @@
         </div>
 
         <div class="blue-background" id="hoge">
-               <div id="particles-js"></div>
+            <div id="particles-js"></div>
             <div class="wrapper">
                 <div class="course-container" id="courses-content">
                     <h1 class="top-title" id="courses-title">Courses</h1>
@@ -166,12 +175,26 @@
         <div class="content" id="images-content">
             <h1 class="top-title" id="images-title">Images</h1>
             <div class="container">
-                <img src="images/hero.jpg" alt="" width="290px" height="195px">
-                <img src="images/background2.jpg" alt="" width="290px" height="195px">
-                <img src="images/background3.jpg" alt="" width="290px" height="195px">
-                <img src="images/background4.jpg" alt="" width="290px" height="195px">
-                <img src="images/background5.jpg" alt="" width="290px" height="195px">
+                <div class="slides">
+                    <img src="images/hero.jpg" s alt="" width="285" height="190">
+                    <img src="images/background2.jpg" alt="" width="285" height="190">
+                    <img src="images/background3.jpg" alt="" width="285" height="190">
+                    <img src="images/background4.jpg" alt="" width="285" height="190">
+                    <img src="images/background5.jpg" alt="" width="285" height="190">
+                </div>
+
+
             </div>
+            <script>
+                $('.slides').slick({
+                    autoplay: true,
+                    dots: true,
+                    slidesToShow: 4,
+                    sLidesToScroll: 1,
+                    arrows: true
+                });
+
+            </script>
         </div>
 
         <div class="content" id="access-content">
@@ -191,4 +214,12 @@
 
     <script src="particles.js"></script>
     <script src="script.js"></script>
-</body></html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js">
+    </script>
+
+
+
+</body>
+
+</html>
