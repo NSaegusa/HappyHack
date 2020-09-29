@@ -128,6 +128,11 @@ body {
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+
+}
+
+#yellow-button:hover {
+     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .2);
 }
 
 .text-item h2 {
@@ -146,10 +151,14 @@ body {
     margin-bottom: 20px;
 }
 
+.text-item h2:hover{
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .2);
+}
+
 #hoge {
     background: #D5E5F9;
     padding-bottom: 50px;
-
+    position: relative;
 }
 
 #particles-js {
@@ -210,12 +219,16 @@ body {
     color: #183c61;
 }
 
+.course-button:hover{
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .2);
+}
+
 #html-button {
     text-align: center;
     padding: 10px;
     color: #fff;
-    background-color: #D05D3F;
-    border: 1px solid #D05D3F;
+    background-color: #EC6433;
+    border: 1px solid #EC6433;
     border-radius: 12px;
     text-decoration: none;
     width: 150px;
@@ -355,3 +368,8 @@ slick setting .slick-prev:before,
         height: auto;
         width: 100%;
     }
+
+
+@media screen and (max-width:479px){
+    
+}
