@@ -631,7 +631,7 @@ slick setting .slick-prev:before,
     }
     
     .text-item p {
-    width: 400px;
+    max-width:400px;
     padding: 20px;
     line-height: 25px;
     font-size: 13px;
